@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Picante Custom Order</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" href="custom.css">
+	<link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">Navbar</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Link</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Dropdown
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Something else here</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
+
+<br>
+	
+<form>
+  
+  <div class="row">
+    <div class="form-group col-md-3">
+      <label for="inputEntree1">Entree #1</label>
+      <select id="inputEntree1" class="form-control">
+      	<option selected>Choose...</option>
+        <option>Tacos</option>
+        <option>Nachos</option>
+        <option>Canuck Pollo</option>
+        <option>Carnitas Huevos Rancheros</option>
+        <option>Barbacoa</option>
+        <option>Pork Chile Verde</option>
+			</select>
+    </div>
+    
+    <div class="form-group col-md-1">
+      <label for="inputQty1">Quantity</label>
+      <select id="inputQty1" class="form-control">
+        <option selected>0</option>
+        <option>1</option>
+        <option>2</option>
+        <option>3</option>
+        <option>4</option>
+        <option>5</option>
+      </select>
+    </div>
+    <div class="form-group col-md-2">
+      <label for="inputPeppers1">Peppers</label>
+      <select multiple id="inputPeppers1" class="form-control">
+        <option selected>None</option>
+        <option>Bell</option>
+        <option>Poblano</option>
+        <option>Jalapeno</option>
+        <option>Habanero</option>
+        <option>Dragon's Breath</option>
+      </select>
+    </div>
+    <div class="form-group col-md-2">
+      <label for="inputSpices1">Spices</label>
+      <select multiple id="inputSpices1" class="form-control">
+      	<option selected>None</option>
+        <option>Cumin</option>
+        <option>Mexican Oregano</option>
+        <option>Coriander</option>
+        <option>Ancho Chili Powder</option>
+        <option>Smoked Paprika</option>
+        <option>Onion Powder</option>
+			</select>
+      
+    </div>
+  </div>
+  
+  <br>
+  
+  <div class="row">
+    <div class="form-group col-md-3">
+      <label for="inputEntree2">Entree #2</label>
+      <select id="inputEntree2" class="form-control">
+      	<option selected>Choose...</option>
+        <option>Tacos</option>
+        <option>Nachos</option>
+        <option>Canuck Pollo</option>
+        <option>Carnitas Huevos Rancheros</option>
+        <option>Barbacoa</option>
+        <option>Pork Chile Verde</option>
+			</select>
+    </div>
+    
+    <div class="form-group col-md-1">
+      <label for="inputQty2">Quantity</label>
+      <select id="inputQty2" class="form-control">
+        <option selected>0</option>
+        <option>1</option>
+        <option>2</option>
+        <option>3</option>
+        <option>4</option>
+        <option>5</option>
+      </select>
+    </div>
+    <div class="form-group col-md-2">
+      <label for="inputPeppers2">Peppers</label>
+      <select multiple id="inputPeppers2" class="form-control">
+        <option selected>None</option>
+        <option>Bell</option>
+        <option>Poblano</option>
+        <option>Jalapeno</option>
+        <option>Habanero</option>
+        <option>Dragon's Breath</option>
+      </select>
+    </div>
+    <div class="form-group col-md-2">
+      <label for="inputSpices2">Spices</label>
+      <select multiple id="inputSpices2" class="form-control">
+      	<option selected>None</option>
+        <option>Cumin</option>
+        <option>Mexican Oregano</option>
+        <option>Coriander</option>
+        <option>Ancho Chili Powder</option>
+        <option>Smoked Paprika</option>
+        <option>Onion Powder</option>
+			</select>
+      
+    </div>
+  </div>
+  
+  <div class="row">
+    <div class="form-group col-md-3">
+      <label for="inputEntree3">Entree #3</label>
+      <select id="inputEntree3" class="form-control">
+      	<option selected>Choose...</option>
+        <option>Tacos</option>
+        <option>Nachos</option>
+        <option>Canuck Pollo</option>
+        <option>Carnitas Huevos Rancheros</option>
+        <option>Barbacoa</option>
+        <option>Pork Chile Verde</option>
+			</select>
+    </div>
+    
+    <div class="form-group col-md-1">
+      <label for="inputQty3">Quantity</label>
+      <select id="inputQty3" class="form-control">
+        <option selected>0</option>
+        <option>1</option>
+        <option>2</option>
+        <option>3</option>
+        <option>4</option>
+        <option>5</option>
+      </select>
+    </div>
+    <div class="form-group col-md-2">
+      <label for="inputPeppers3">Peppers</label>
+      <select multiple id="inputPeppers3" class="form-control">
+        <option selected>None</option>
+        <option>Bell</option>
+        <option>Poblano</option>
+        <option>Jalapeno</option>
+        <option>Habanero</option>
+        <option>Dragon's Breath</option>
+      </select>
+    </div>
+    <div class="form-group col-md-2">
+      <label for="inputSpices3">Spices</label>
+      <select multiple id="inputSpices3" class="form-control">
+      	<option selected>None</option>
+        <option>Cumin</option>
+        <option>Mexican Oregano</option>
+        <option>Coriander</option>
+        <option>Ancho Chili Powder</option>
+        <option>Smoked Paprika</option>
+        <option>Onion Powder</option>
+			</select>
+      
+    </div>
+  </div>
+  
+  <div class="row">
+    <div class="form-group col-md-3">
+      <label for="inputEntree4">Entree #4</label>
+      <select id="inputEntree4" class="form-control">
+      	<option selected>Choose...</option>
+        <option>Tacos</option>
+        <option>Nachos</option>
+        <option>Canuck Pollo</option>
+        <option>Carnitas Huevos Rancheros</option>
+        <option>Barbacoa</option>
+        <option>Pork Chile Verde</option>
+			</select>
+    </div>
+    
+    <div class="form-group col-md-1">
+      <label for="inputQty4">Quantity</label>
+      <select id="inputQty4" class="form-control">
+        <option selected>0</option>
+        <option>1</option>
+        <option>2</option>
+        <option>3</option>
+        <option>4</option>
+        <option>5</option>
+      </select>
+    </div>
+    <div class="form-group col-md-2">
+      <label for="inputPeppers4">Peppers</label>
+      <select multiple id="inputPeppers4" class="form-control">
+        <option selected>None</option>
+        <option>Bell</option>
+        <option>Poblano</option>
+        <option>Jalapeno</option>
+        <option>Habanero</option>
+        <option>Dragon's Breath</option>
+      </select>
+    </div>
+    <div class="form-group col-md-2">
+      <label for="inputSpices4">Spices</label>
+      <select multiple id="inputSpices4" class="form-control">
+      	<option selected>None</option>
+        <option>Cumin</option>
+        <option>Mexican Oregano</option>
+        <option>Coriander</option>
+        <option>Ancho Chili Powder</option>
+        <option>Smoked Paprika</option>
+        <option>Onion Powder</option>
+			</select>
+      
+    </div>
+  </div>
+  
+  <br>
+
+	<br>
+	<div class="custom-control custom-radio custom-control-inline">
+  	<input type="radio" id="customRadioInline1" name="customRadioInline1" class="custom-control-input">
+  	<label class="custom-control-label" for="customRadioInline1">Pickup</label>
+	</div>
+	<div class="custom-control custom-radio custom-control-inline">
+  	<input type="radio" id="customRadioInline2" name="customRadioInline1" class="custom-control-input">
+  	<label class="custom-control-label" for="customRadioInline2">Skip The Dishes</label>
+	</div>
+	<div class="custom-control custom-radio custom-control-inline">
+  	<input type="radio" id="customRadioInline3" name="customRadioInline1" class="custom-control-input">
+  	<label class="custom-control-label" for="customRadioInline3">Uber Eats</label>
+	</div>
+	
+	<br><br>
+	
+	<!-- Button trigger modal -->
+	<button type="button" class="btn btn-danger" data-toggle="modal" data-target="#exampleModal">
+  	Place Order Now
+	</button>
+
+	<!-- Modal -->
+	<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  	<div class="modal-dialog" role="document">
+    	<div class="modal-content">
+      	<div class="modal-header">
+        	<h5 class="modal-title" id="exampleModalLabel">Order Placed</h5>
+        	<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          	<span aria-hidden="true">&times;</span>
+        	</button>
+      	</div>
+      <div class="modal-body">
+        Thank you. Your order has been placed.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+        <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+      </div>
+    </div>
+  </div>
+</div>  
+ 
+  
+  
+</form>
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
